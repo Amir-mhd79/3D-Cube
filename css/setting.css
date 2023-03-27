@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.base{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: -2px;
+    box-shadow: inset 1px 1px 5px black;
+}
+.edit-4{
+    position:absolute;
+    transform:translate(-50%,-50%);
+}
+body{
+    background-image: radial-gradient(circle, #1b101d, #1d111f, #1f1221, #221223, #241325, #271428, #2a162c, #2d172f, #311b35, #361e3c, #3a2243, #3e264a);
+}
